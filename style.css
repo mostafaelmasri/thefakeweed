@@ -5,7 +5,13 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 
+html{
 
+  height: 100%;
+  /*margin: 0px;*/
+  /*padding: 0px;*/
+  /*overflow-x: hidden;*/
+}
 
 
 body {
@@ -17,6 +23,13 @@ body {
     /*  background-color:#ce3635;*/
     text-align: center;
     color: #fff;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
 }
 
 /*NAVBAR SECTION*/
@@ -133,12 +146,11 @@ div.navbar.navbar-inverse .navbar-collapse {
     padding-top: 149px;
     padding-bottom: 250px;
 }
-/*
-@media screen and (max-width: 480px) {
-    .typewrite {
-        font-size: 56px;
-    }
-}*/
+
+@media only screen and (max-width: 500px) {
+
+   .typewrite { font-size: 58px; }
+   }
 
 
 /*bio and pic me*/
@@ -151,7 +163,7 @@ div.navbar.navbar-inverse .navbar-collapse {
 
 .profile-img {
   margin-bottom: 15px;
-  width: 150px; }
+  width: 200px; }
 
 .about, .about-info, .about-tools, .about-last {
   padding: 4% 10% 1% 10%;
@@ -314,7 +326,7 @@ font-size: 25px;
 
 .footer {
   background: #061D25;
-  /*padding: 10px;*/
+  padding-bottom: 5px;
 
 }
 .footer a {
@@ -337,6 +349,12 @@ font-size: 25px;
  font-family: 'Slabo 27px', serif;
  font-size: 31px;
 }
+
+@media only screen and (max-width:500px){
+  .lasth1 {font-size: 20px;}
+}
+
+
 
 
 /*highlight contact on hover*/
